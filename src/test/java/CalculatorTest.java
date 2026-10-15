@@ -24,4 +24,12 @@ public class CalculatorTest {
     public void testDivision() {
         assertEquals(5, calculator.divide(10, 2));
     }
+    
+    @Test
+    void testSquare() {
+    Calculator calc = new Calculator();
+        assertEquals(25, calc.square(5));
+}
+
+
 }
